@@ -17,7 +17,7 @@ html{
 }
 
 body{
-  background-color: #66CCFF;
+  background-color: #B0B0B0;
   padding: none;
 }
 
@@ -40,19 +40,31 @@ p{
 
 @media only screen and (min-width: 35em) {
 /* divide pixels by 16 to get em's */
-  body{
-    background-color: limegreen;
-  }
 
-  h1{
-    color: hotpink;
-  }
+body{
+}
+
+h1{
+  color: white;
+}
+
+img{
+  width: 50%;
+}
+
+
+
 }
 
 @media only screen and (min-width: 800px) {
 
+
   body{
-    background-color: yellow;
+
   }
+
+img{
+  width: 100%;
+}
 
 }
