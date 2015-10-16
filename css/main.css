@@ -18,7 +18,6 @@ html{
 
 body{
   background-color: #B0B0B0;
-  padding: none;
 }
 
 h1{
@@ -35,8 +34,14 @@ img{
 }
 
 p{
-
+  text-indent: 50px;
 }
+
+.icon img{
+  width: 23%;
+  display: inline-block;
+}
+
 
 @media only screen and (min-width: 35em) {
 /* divide pixels by 16 to get em's */
