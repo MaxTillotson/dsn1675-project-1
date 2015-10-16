@@ -12,7 +12,8 @@ html{
   text-size-adjust:100%;
 }
 
-*,*::before, *::after{
+*, *::before, *::after{
+  font-family: 'Oswald', sans-serif;
   box-sizing: inherit:
 }
 
@@ -22,11 +23,14 @@ body{
 
 h1{
   color: white;
-
+  font-size: 3rem;
+  text-align:center;
 }
 
 h2{
   color: white;
+  font-size: 2rem;
+  text-align: center;
 }
 
 img{
@@ -47,51 +51,93 @@ p{
   position: relative;
 }
 
-
 @media only screen and (min-width: 35em) {
 /* divide pixels by 16 to get em's */
 
-body{
-}
+  body{
+  }
 
-h1{
-  color: white;
-}
+  h1{
+    color: white;
+    text-align: left;
+  }
 
-img{
-  width: 50%;
-}
+  .sub{
+    position: relative;
+  }
 
-p{
-  position: absolute;
-  top: 7em;
-  right: 0;
-  width: 47%;
-}
+  .sub h2{
+    position: absolute;
+    margin: 5px;
+    z-index: 1;
+    top: 375px;
+    left: 30px;
+    color: black;
 
-
-
-.icon{
-  position: relative;
-  width: 50%;
-  right: 0em;
-  bottom: 6em;
-  padding-left: 52%;
-}
+  }
 
 
+  .sub img{
+    width: 50%;
+    position: absolute;
+    z-index: -1;
+  }
 
+  p{
+    position: absolute;
+    top: 7em;
+    right: 0;
+    width: 47%;
+  }
+
+  .icon{
+    position: absolute;
+    width: 50%;
+    right: 0em;
+    bottom: 24em;
+    padding-left: 52%;
+  }
 }
 
 @media only screen and (min-width: 800px) {
 
 
-  body{
-
+  p{
+    position: absolute;
+    text-align: center;
+    text-indent: 0;
+    top: 525px;
+    width: 100%;
   }
 
-img{
-  width: 100%;
+  .sub h1{
+    text-align: center;
+    z-index: 0;
+  }
+
+  .sub h2{
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    top: 325px;
+  }
+
+.sub img{
+  top:0;
+  left: 25%;
+  width: 50%;
+  opacity:0.7;
+  z-index: -1;
 }
+
+
+.icon{
+  width: 20%;
+  right: 10px;
+  bottom: 20px;
+
+}
+
+
 
 }
