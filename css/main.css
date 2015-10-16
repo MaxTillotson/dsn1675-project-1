@@ -37,9 +37,14 @@ p{
   text-indent: 50px;
 }
 
+.box{
+  position: absolute;
+}
+
 .icon img{
   width: 23%;
   display: inline-block;
+  position: relative;
 }
 
 
@@ -55,6 +60,23 @@ h1{
 
 img{
   width: 50%;
+}
+
+p{
+  position: absolute;
+  top: 7em;
+  right: 0;
+  width: 47%;
+}
+
+
+
+.icon{
+  position: relative;
+  width: 50%;
+  right: 0em;
+  bottom: 6em;
+  padding-left: 52%;
 }
 
 
