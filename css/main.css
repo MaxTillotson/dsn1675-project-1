@@ -73,9 +73,9 @@ p{
     top: 375px;
     left: 30px;
     color: black;
+    font-size: 2rem;
 
   }
-
 
   .sub img{
     width: 50%;
@@ -106,38 +106,36 @@ p{
     position: absolute;
     text-align: center;
     text-indent: 0;
-    top: 525px;
+    top: 530px;
     width: 100%;
   }
 
   .sub h1{
     text-align: center;
     z-index: 0;
+    font-size: 4rem;
   }
 
   .sub h2{
     position: relative;
     text-align: center;
     z-index: 1;
-    top: 325px;
+    top: 300px;
+    font-size: 3rem;
   }
 
-.sub img{
-  top:0;
-  left: 25%;
-  width: 50%;
-  opacity:0.7;
-  z-index: -1;
-}
+  .sub img{
+    top:0;
+    left: 25%;
+    width: 50%;
+    opacity:0.7;
+    z-index: -1;
+  }
 
 
-.icon{
-  width: 20%;
-  right: 10px;
-  bottom: 20px;
-
-}
-
-
-
+  .icon{
+    width: 20%;
+    right: 10px;
+    bottom: 20px;
+  }
 }
